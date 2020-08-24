@@ -32,22 +32,22 @@ The website must consist of 7 pages total, including:
         containing preview images of each plot, and clicking an image should
         take the user to that visualization.
 
--   [ ] Four [visualization pages](#visualization-pages), each with:
+-   [x] Four [visualization pages](#visualization-pages), each with:
 
-    -   [ ] A descriptive title and heading tag.
+    -   [x] A descriptive title and heading tag.
 
-    -   [ ]The plot/visualization itself for the selected comparison.
+    -   [x]The plot/visualization itself for the selected comparison.
 
-    -   [ ] A paragraph describing the plot and its significance.
+    -   [x] A paragraph describing the plot and its significance.
 
--   [ ] A ["Comparisons" page](#comparisons-page) that:
+-   [x] A ["Comparisons" page](#comparisons-page) that:
 
-    -   [ ] Contains all of the visualizations on the same page so we can easily
+    -   [x] Contains all of the visualizations on the same page so we can easily
         visually compare them.
 
-    -   [ ] Uses a Bootstrap grid for the visualizations.
+    -   [x] Uses a Bootstrap grid for the visualizations.
 
-    -   [ ] The grid must be two visualizations across on screens medium and
+    -   [x] The grid must be two visualizations across on screens medium and
         larger, and 1 across on extra-small and small screens.
 
 -   [ ] A ["Data" page](#data-page) that:
