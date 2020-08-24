@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Bootwatch Simplex CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/simplex/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/simplex/bootstrap.min.css"> -->
     <!-- CSS style sheet -->
     <link rel="stylesheet" href="WebVisualization/style.css">
 
@@ -19,7 +19,7 @@
 <body>
     <!-- Navigation -->
     <section class="navigation">
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark mb-5">
             <!-- Brand -->
             <a class="navbar-brand" href="index.html">Latitude</a>
 
@@ -56,6 +56,48 @@
             </div>
         </nav>
     </section>  
+
+
+    <!-- Page content -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Summary: Latitude vs. X</h2>
+                    <hr>
+                    <img src="WebVisualization/assets/images/Fig1.png" alt="Latitude vs. Max Temp" width="400">
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at inluded: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="WebVisualization/temp_vis.html">
+                            <img src="WebVisualization/assets/images/Fig1.png" alt="Latitude vs. Max Temp" width="100">
+                            </a>
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="WebVisualization/hum_vis.html">
+                            <img src="WebVisualization/assets/images/Fig2.png" alt="Latitude vs. Humidity" width="100">
+                            </a>    
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="WebVisualization/cloud_vis.html">
+                            <img src="WebVisualization/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="100">
+                            </a>    
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="WebVisualization/cloud_vis.html">
+                            <img src="WebVisualization/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" width="100">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
     <!-- Footer -->

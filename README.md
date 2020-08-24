@@ -24,11 +24,11 @@ Requirements
 
 The website must consist of 7 pages total, including:
 
--   [ ] A [landing page](#landing-page) containing:
+-   [x] A [landing page](#landing-page) containing:
 
-    -   [ ] An explanation of the project.
+    -   [x] An explanation of the project.
 
-    -   [ ] Links to each visualizations page. There should be a sidebar
+    -   [x] Links to each visualizations page. There should be a sidebar
         containing preview images of each plot, and clicking an image should
         take the user to that visualization.
 
@@ -75,7 +75,7 @@ The website must, at the top of every page, have a navigation menu that:
 -   [x] Provides two more text links on the right: "Comparisons," which links to
     the comparisons page, and "Data," which links to the data page.
 
--   [ ] Is responsive (using media queries). The nav must have similar behavior
+-   [x] Is responsive (using media queries). The nav must have similar behavior
     as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the
     background color change).
 
