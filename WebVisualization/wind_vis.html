@@ -19,7 +19,7 @@
 <body>
     <!-- Navigation -->
     <section class="navigation">
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark mb-5">
             <!-- Brand -->
             <a class="navbar-brand" href="../index.html">Latitude</a>
 
@@ -57,17 +57,45 @@
         </nav>
     </section>  
 
-    <!-- Page content -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h2>Summary: Latitude vs. X</h2>
-                    <p>"The purpose of this project was to analyze how weather cahnges as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities."</p>
+            <!-- Page content -->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>Wind Speed</h2>
+                            <hr>
+                            <img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+                            <p>The plot suggest that latitude does not correlate with wind speeds. Overwhelming, data shows low wind speeds across all latitudes. There are many other factors at play there may decide how fast the wind is traveling.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Visualizations</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-3 col-md-6">
+                                    <a href="temp_vis.html">
+                                    <img src="assets/images/Fig1.png" alt="Latitude vs. Max Temp" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="col-3 col-md-6">
+                                    <a href="hum_vis.html">
+                                    <img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="img-fluid">
+                                    </a>    
+                                </div>
+                                <div class="col-3 col-md-6">
+                                    <a href="cloud_vis.html">
+                                    <img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="img-fluid">
+                                    </a>    
+                                </div>
+                                <div class="col-3 col-md-6">
+                                    <a href="wind_vis.html">
+                                    <img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="img-fluid img-thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
     <!-- Footer -->
     <footer class="page-footer font-small blue">
